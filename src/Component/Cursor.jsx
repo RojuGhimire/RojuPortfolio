@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import { useState } from 'react'
 import '../App.css';
 
 const Cursor = () => {
@@ -12,7 +12,8 @@ const Cursor = () => {
     })
 
     return (
-        <div>
+
+        < div>
             <div className="cursoroutline" style={{
                 left: cursorX + 'px',
                 top: cursorY + 'px'
@@ -24,7 +25,7 @@ const Cursor = () => {
             }}>
 
             </div>
-        </div>
+        </div >
     )
 }
 

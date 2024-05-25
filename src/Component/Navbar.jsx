@@ -15,7 +15,8 @@ const Navbar = () => {
                         <a href="/" className='px-2 py-1 rounded-md hover:text-twhite hover:bg-tgray'>CONTACT</a>
                     </div>
                     <a href="mailto:ghimireroju@gmail.com?subject=Hire%20Me&body=Hi%20Roju,%20I%20am%20interested%20in%20hiring%20you%20for%20a%20project." className='bg-tgray border-2 border-tgray px-3 flex items-center rounded-sm text-twhite hover:bg-bblack hover:text-tgolden'>
-                        <ion-icon name="code-sharp"></ion-icon>
+                        <ion-icon name="
+                        code-sharp"></ion-icon>
                         <span className='m-2 text-white'>HIRE ME</span>
                         <ion-icon name="code-slash-sharp"></ion-icon>
                     </a>

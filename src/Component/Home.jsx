@@ -1,26 +1,25 @@
-import React from 'react';
 import Profile from '../Component/PP.jpg';
 import Typewriter from 'typewriter-effect';
 
 const Home = () => {
     return (
-        <div className="flex flex-col lg:flex-row items-center justify-center py-28 h-full bg-black">
+        <div className="flex flex-col lg:flex-row items-center justify-center py-36 h-full w-full bg-black">
             <div className="flex flex-col items-center lg:items-start text-center lg:text-left lg:w-1/2 px-8 lg:px-32 mb-10 lg:mb-0">
-                <p className='text-4xl text-white mb-4'>I'am a</p>
+                <p className='text-4xl text-white mb-4'>I am a</p>
                 <h1 className='text-5xl lg:text-7xl text-white mb-4'>
                     <Typewriter
                         onInit={(type) => {
                             type.typeString('Web Designer')
-                                .pauseFor(2000)
+                                .pauseFor(3000)
                                 .deleteAll()
                                 .typeString('Graphics Designer')
-                                .pauseFor(2000)
+                                .pauseFor(3000)
                                 .deleteAll()
                                 .typeString('Freelancer')
-                                .pauseFor(2000)
+                                .pauseFor(3000)
                                 .deleteAll()
                                 .typeString('Web Developer')
-                                .pauseFor(2000)
+                                .pauseFor(3000)
                                 .deleteAll()
                                 .start();
                         }}

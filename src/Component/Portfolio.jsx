@@ -1,14 +1,15 @@
 import RealStateImage from '../Component/RealState.png';
 import Lauayo from '../Component/Lauayo.png';
 import PortfolioImg from '../Component/Portfolio.png';
+import Nexus from '../Component/Nexus.png';
 
 const Portfolio = () => {
     const projects = [
         {
-            title: "Real State Project",
-            description: "RealState Project is a modern, responsive web application built using React JavaScript and styled with Tailwind CSS. This project showcases a clean and user-friendly interface for browsing real estate properties, complete with dynamic filtering options and interactive maps. Whether you're searching for residential, commercial, or rental properties, this platform provides an intuitive experience for users. It also incorporates best practices in web development to ensure fast loading times and seamless navigation.",
-            image: RealStateImage,
-            link: "https://real-state-project-three.vercel.app/"
+            title: "Nexus Accounting",
+            description: " Nexus is built using React, TypeScript, and Tailwind CSS, ensuring a modern, efficient, and responsive user experience.Nexus Accounting Firm was founded with a mission to provide businesses with flexible and reliable bookkeeping solutions. Our team brings years of industry experience and expertise to every client partnership.",
+            image: Nexus,
+            link: "https://nexus-accounting.vercel.app/"
         },
         {
             title: "Lauaayo",
@@ -21,6 +22,12 @@ const Portfolio = () => {
             description: "The Portfolio is a showcase of my work, skills, and achievements presented in a visually appealing and organized manner. This portfolio website serves as a digital resume, providing potential employers, clients, or collaborators with insight into my expertise and experiences. It features a collection of projects I've completed, along with descriptions, technologies used, and links to live demos or repositories. Additionally, it may include information about my background, education, certifications, and contact details. With a clean design and easy navigation, this portfolio effectively communicates my capabilities and demonstrates my commitment to professionalism and excellence.",
             image: PortfolioImg, 
             link: "https://roju-portfolio.vercel.app/"
+        },
+        {
+            title: "Real State Project",
+            description: "RealState Project is a modern, responsive web application built using React JavaScript and styled with Tailwind CSS. This project showcases a clean and user-friendly interface for browsing real estate properties, complete with dynamic filtering options and interactive maps. Whether you're searching for residential, commercial, or rental properties, this platform provides an intuitive experience for users. It also incorporates best practices in web development to ensure fast loading times and seamless navigation.",
+            image: RealStateImage,
+            link: "https://real-state-project-three.vercel.app/"
         },
     ];
 

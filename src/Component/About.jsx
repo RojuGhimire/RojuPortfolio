@@ -2,7 +2,7 @@ import Profile from '../Component/PP.jpg';
 
 const About = () => {
     return (
-        <div className="flex flex-col lg:flex-row items-center justify-center py-28 h-full bg-black">
+        <div className="flex flex-col items-center justify-center py-28 h-full bg-black">
             <div className="flex flex-col items-center lg:w-1/2 mb-10 lg:mb-0">
                 <div className="h-96 w-80 rounded-3xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105">
                     <img src={Profile} alt="Profile" className='h-full w-full object-cover' />
